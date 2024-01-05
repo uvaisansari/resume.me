@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uvais' Resume</title>
-    <style>
-        *{
-            margin: 0;
-        }
-    </style>
 </head>
 <body>
 
 <header>
     <table>
         <tr>
-            <td><img width="300px" src="about.jpg" alt="Uvais's image"></td>
+            <td>
+                <picture>
+                    <source srcset="mobile.jpg" media="(max-width:500px)">
+                    <source srcset="about.jpg" media="(max-width:600px)">
+                    <img src="about.jpg" width="300" alt="Error">
+                </picture>
+            </td>
             <td>
                 <h1>Mohd Uvais</h1>
                 <p><i>I have completed B-tech in 2022 by CS.</i></p>
